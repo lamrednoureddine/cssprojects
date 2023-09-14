@@ -1,0 +1,89 @@
+      
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    form {
+        margin-top: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="file"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    textarea {
+        height: 150px;
+    }
+    button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }   
+      
+      
+      /* Style CSS pour la barre de navigation */
+    #navbar {
+        background-color: rgb(116, 42, 165);
+
+    }
+
+   #titre a {
+        float: right;
+        padding: 14px 150px; 
+    }
+    #navbar a {
+    
+        display:inline; /* Pour créer des liens de navigation en bloc */
+    font-family:Roboto ;
+    font-style:oblique;
+    text-transform: uppercase;
+
+text-decoration: none;
+font-size: larger;
+    }
+    
+         #navbar {
+            background-color: #c70909; /* Couleur de fond de la barre */
+            overflow: hidden; /* Pour gérer les éléments flottants */
+        }
+
+        #navbar a {
+            float: left; /* Pour aligner les éléments à gauche */
+            display: block; /* Pour créer des liens de navigation en bloc */
+            color: #eeecf3; /* Couleur du texte */
+            padding: 14px 80px; /* Espacement interne des liens */
+            
+        }
+
+        #navbar a:hover {
+            background-color: #ddd; /* Couleur de fond au survol */
+            color: black; /* Couleur du texte au survol */
+        }
+       
